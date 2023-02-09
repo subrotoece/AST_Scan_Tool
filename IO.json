@@ -1,0 +1,1127 @@
+{
+  "name": "$root",
+  "kind": "Root",
+  "addr": 94082622869376,
+  "members": [
+    {
+      "name": "",
+      "kind": "CompilationUnit",
+      "addr": 94082622984144,
+      "members": [
+        {
+          "name": "",
+          "kind": "WildcardImport",
+          "addr": 94082622984416,
+          "isFromExport": false
+        },
+        {
+          "name": "",
+          "kind": "WildcardImport",
+          "addr": 94082622984520,
+          "isFromExport": false
+        },
+        {
+          "name": "",
+          "kind": "WildcardImport",
+          "addr": 94082622984624,
+          "isFromExport": false
+        },
+        {
+          "name": "",
+          "kind": "WildcardImport",
+          "addr": 94082622984728,
+          "isFromExport": false
+        },
+        {
+          "name": "",
+          "kind": "WildcardImport",
+          "addr": 94082622984832,
+          "isFromExport": false
+        }
+      ]
+    },
+    {
+      "name": "IO_Unit",
+      "kind": "Instance",
+      "addr": 94082622989304,
+      "body": {
+        "name": "IO_Unit",
+        "kind": "InstanceBody",
+        "addr": 94082622984936,
+        "members": [
+          {
+            "name": "port",
+            "kind": "InterfacePort",
+            "addr": 94082622989424,
+            "isGeneric": false
+          },
+          {
+            "name": "csrUnit",
+            "kind": "InterfacePort",
+            "addr": 94082622989544,
+            "isGeneric": false
+          },
+          {
+            "name": "tmReg",
+            "kind": "Variable",
+            "addr": 94082622985184,
+            "type": "<error>",
+            "lifetime": "Static"
+          },
+          {
+            "name": "tmNext",
+            "kind": "Variable",
+            "addr": 94082622987936,
+            "type": "<error>",
+            "lifetime": "Static"
+          },
+          {
+            "name": "",
+            "kind": "ProceduralBlock",
+            "addr": 94082622988280,
+            "procedureKind": "AlwaysFF",
+            "body": {
+              "kind": "Invalid",
+              "child": {
+                "kind": "Timed",
+                "timing": {
+                  "kind": "Invalid"
+                },
+                "stmt": {
+                  "kind": "Invalid",
+                  "child": {
+                    "kind": "Block",
+                    "blockKind": "Sequential",
+                    "body": {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "Conditional",
+                        "conditions": [
+                          {
+                            "expr": {
+                              "kind": "Invalid",
+                              "type": "<error>"
+                            }
+                          }
+                        ],
+                        "check": "None",
+                        "ifTrue": {
+                          "kind": "Invalid",
+                          "child": {
+                            "kind": "Block",
+                            "blockKind": "Sequential",
+                            "body": {
+                              "kind": "Invalid",
+                              "child": {
+                                "kind": "ExpressionStatement",
+                                "expr": {
+                                  "kind": "Invalid",
+                                  "type": "<error>",
+                                  "child": {
+                                    "kind": "Assignment",
+                                    "type": "<error>",
+                                    "left": {
+                                      "kind": "NamedValue",
+                                      "type": "<error>",
+                                      "symbol": "94082622985184 tmReg"
+                                    },
+                                    "right": {
+                                      "kind": "UnbasedUnsizedIntegerLiteral",
+                                      "type": "bit[0:0]",
+                                      "value": "1'b0",
+                                      "constant": "1'b0"
+                                    },
+                                    "isNonBlocking": true
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ifFalse": {
+                          "kind": "Invalid",
+                          "child": {
+                            "kind": "Block",
+                            "blockKind": "Sequential",
+                            "body": {
+                              "kind": "Invalid",
+                              "child": {
+                                "kind": "ExpressionStatement",
+                                "expr": {
+                                  "kind": "Invalid",
+                                  "type": "<error>",
+                                  "child": {
+                                    "kind": "Assignment",
+                                    "type": "<error>",
+                                    "left": {
+                                      "kind": "NamedValue",
+                                      "type": "<error>",
+                                      "symbol": "94082622985184 tmReg"
+                                    },
+                                    "right": {
+                                      "kind": "NamedValue",
+                                      "type": "<error>",
+                                      "symbol": "94082622987936 tmNext"
+                                    },
+                                    "isNonBlocking": true
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "name": "phyRawReadAddr",
+            "kind": "Variable",
+            "addr": 94082622988392,
+            "type": "<error>",
+            "lifetime": "Static"
+          },
+          {
+            "name": "phyRawWriteAddr",
+            "kind": "Variable",
+            "addr": 94082622988736,
+            "type": "<error>",
+            "lifetime": "Static"
+          },
+          {
+            "name": "",
+            "kind": "ProceduralBlock",
+            "addr": 94082622989080,
+            "procedureKind": "AlwaysComb",
+            "body": {
+              "kind": "Invalid",
+              "child": {
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "body": {
+                  "kind": "List",
+                  "list": [
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "ExpressionStatement",
+                        "expr": {
+                          "kind": "Invalid",
+                          "type": "<error>",
+                          "child": {
+                            "kind": "Assignment",
+                            "type": "<error>",
+                            "left": {
+                              "kind": "NamedValue",
+                              "type": "<error>",
+                              "symbol": "94082622988392 phyRawReadAddr"
+                            },
+                            "right": {
+                              "kind": "Invalid",
+                              "type": "<error>"
+                            },
+                            "isNonBlocking": false
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "ExpressionStatement",
+                        "expr": {
+                          "kind": "Invalid",
+                          "type": "<error>",
+                          "child": {
+                            "kind": "Assignment",
+                            "type": "<error>",
+                            "left": {
+                              "kind": "NamedValue",
+                              "type": "<error>",
+                              "symbol": "94082622988736 phyRawWriteAddr"
+                            },
+                            "right": {
+                              "kind": "Invalid",
+                              "type": "<error>"
+                            },
+                            "isNonBlocking": false
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "ExpressionStatement",
+                        "expr": {
+                          "kind": "Invalid",
+                          "type": "<error>",
+                          "child": {
+                            "kind": "Assignment",
+                            "type": "<error>",
+                            "left": {
+                              "kind": "NamedValue",
+                              "type": "<error>",
+                              "symbol": "94082622987936 tmNext"
+                            },
+                            "right": {
+                              "kind": "NamedValue",
+                              "type": "<error>",
+                              "symbol": "94082622985184 tmReg"
+                            },
+                            "isNonBlocking": false
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "ExpressionStatement",
+                        "expr": {
+                          "kind": "Invalid",
+                          "type": "<error>",
+                          "child": {
+                            "kind": "Assignment",
+                            "type": "<error>",
+                            "left": {
+                              "kind": "Invalid",
+                              "type": "<error>",
+                              "child": {
+                                "kind": "Invalid",
+                                "type": "<error>",
+                                "child": {
+                                  "kind": "NamedValue",
+                                  "type": "<error>",
+                                  "symbol": "94082622987936 tmNext"
+                                }
+                              }
+                            },
+                            "right": {
+                              "kind": "Invalid",
+                              "type": "<error>",
+                              "child": {
+                                "kind": "BinaryOp",
+                                "type": "<error>",
+                                "op": "Add",
+                                "left": {
+                                  "kind": "Invalid",
+                                  "type": "<error>",
+                                  "child": {
+                                    "kind": "Invalid",
+                                    "type": "<error>",
+                                    "child": {
+                                      "kind": "NamedValue",
+                                      "type": "<error>",
+                                      "symbol": "94082622987936 tmNext"
+                                    }
+                                  }
+                                },
+                                "right": {
+                                  "kind": "IntegerLiteral",
+                                  "type": "int",
+                                  "value": "1",
+                                  "constant": "1"
+                                }
+                              }
+                            },
+                            "isNonBlocking": false
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "ExpressionStatement",
+                        "expr": {
+                          "kind": "Invalid",
+                          "type": "<error>",
+                          "child": {
+                            "kind": "Assignment",
+                            "type": "<error>",
+                            "left": {
+                              "kind": "Invalid",
+                              "type": "<error>"
+                            },
+                            "right": {
+                              "kind": "Invalid",
+                              "type": "<error>",
+                              "child": {
+                                "kind": "ConditionalOp",
+                                "type": "<error>",
+                                "conditions": [
+                                  {
+                                    "expr": {
+                                      "kind": "Invalid",
+                                      "type": "<error>",
+                                      "child": {
+                                        "kind": "BinaryOp",
+                                        "type": "<error>",
+                                        "op": "GreaterThanEqual",
+                                        "left": {
+                                          "kind": "Invalid",
+                                          "type": "<error>",
+                                          "child": {
+                                            "kind": "Invalid",
+                                            "type": "<error>",
+                                            "child": {
+                                              "kind": "NamedValue",
+                                              "type": "<error>",
+                                              "symbol": "94082622987936 tmNext"
+                                            }
+                                          }
+                                        },
+                                        "right": {
+                                          "kind": "Invalid",
+                                          "type": "<error>",
+                                          "child": {
+                                            "kind": "Invalid",
+                                            "type": "<error>",
+                                            "child": {
+                                              "kind": "NamedValue",
+                                              "type": "<error>",
+                                              "symbol": "94082622987936 tmNext"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "left": {
+                                  "kind": "Invalid",
+                                  "type": "<error>"
+                                },
+                                "right": {
+                                  "kind": "Invalid",
+                                  "type": "<error>"
+                                }
+                              }
+                            },
+                            "isNonBlocking": false
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "Conditional",
+                        "conditions": [
+                          {
+                            "expr": {
+                              "kind": "Invalid",
+                              "type": "<error>"
+                            }
+                          }
+                        ],
+                        "check": "None",
+                        "ifTrue": {
+                          "kind": "Invalid",
+                          "child": {
+                            "kind": "Block",
+                            "blockKind": "Sequential",
+                            "body": {
+                              "kind": "Invalid",
+                              "child": {
+                                "kind": "Conditional",
+                                "conditions": [
+                                  {
+                                    "expr": {
+                                      "kind": "Invalid",
+                                      "type": "<error>",
+                                      "child": {
+                                        "kind": "BinaryOp",
+                                        "type": "<error>",
+                                        "op": "Equality",
+                                        "left": {
+                                          "kind": "NamedValue",
+                                          "type": "<error>",
+                                          "symbol": "94082622988736 phyRawWriteAddr"
+                                        },
+                                        "right": {
+                                          "kind": "Invalid",
+                                          "type": "<error>"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "check": "None",
+                                "ifTrue": {
+                                  "kind": "Invalid",
+                                  "child": {
+                                    "kind": "Block",
+                                    "blockKind": "Sequential",
+                                    "body": {
+                                      "kind": "Invalid",
+                                      "child": {
+                                        "kind": "ExpressionStatement",
+                                        "expr": {
+                                          "kind": "Invalid",
+                                          "type": "<error>",
+                                          "child": {
+                                            "kind": "Assignment",
+                                            "type": "<error>",
+                                            "left": {
+                                              "kind": "Invalid",
+                                              "type": "<error>",
+                                              "child": {
+                                                "kind": "Invalid",
+                                                "type": "<error>",
+                                                "child": {
+                                                  "kind": "Invalid",
+                                                  "type": "<error>",
+                                                  "child": {
+                                                    "kind": "NamedValue",
+                                                    "type": "<error>",
+                                                    "symbol": "94082622987936 tmNext"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "right": {
+                                              "kind": "Invalid",
+                                              "type": "<error>"
+                                            },
+                                            "isNonBlocking": false
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "ifFalse": {
+                                  "kind": "Invalid",
+                                  "child": {
+                                    "kind": "Conditional",
+                                    "conditions": [
+                                      {
+                                        "expr": {
+                                          "kind": "Invalid",
+                                          "type": "<error>",
+                                          "child": {
+                                            "kind": "BinaryOp",
+                                            "type": "<error>",
+                                            "op": "Equality",
+                                            "left": {
+                                              "kind": "NamedValue",
+                                              "type": "<error>",
+                                              "symbol": "94082622988736 phyRawWriteAddr"
+                                            },
+                                            "right": {
+                                              "kind": "Invalid",
+                                              "type": "<error>"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "check": "None",
+                                    "ifTrue": {
+                                      "kind": "Invalid",
+                                      "child": {
+                                        "kind": "Block",
+                                        "blockKind": "Sequential",
+                                        "body": {
+                                          "kind": "Invalid",
+                                          "child": {
+                                            "kind": "ExpressionStatement",
+                                            "expr": {
+                                              "kind": "Invalid",
+                                              "type": "<error>",
+                                              "child": {
+                                                "kind": "Assignment",
+                                                "type": "<error>",
+                                                "left": {
+                                                  "kind": "Invalid",
+                                                  "type": "<error>",
+                                                  "child": {
+                                                    "kind": "Invalid",
+                                                    "type": "<error>",
+                                                    "child": {
+                                                      "kind": "Invalid",
+                                                      "type": "<error>",
+                                                      "child": {
+                                                        "kind": "NamedValue",
+                                                        "type": "<error>",
+                                                        "symbol": "94082622987936 tmNext"
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "right": {
+                                                  "kind": "Invalid",
+                                                  "type": "<error>"
+                                                },
+                                                "isNonBlocking": false
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "ifFalse": {
+                                      "kind": "Invalid",
+                                      "child": {
+                                        "kind": "Conditional",
+                                        "conditions": [
+                                          {
+                                            "expr": {
+                                              "kind": "Invalid",
+                                              "type": "<error>",
+                                              "child": {
+                                                "kind": "BinaryOp",
+                                                "type": "<error>",
+                                                "op": "Equality",
+                                                "left": {
+                                                  "kind": "NamedValue",
+                                                  "type": "<error>",
+                                                  "symbol": "94082622988736 phyRawWriteAddr"
+                                                },
+                                                "right": {
+                                                  "kind": "Invalid",
+                                                  "type": "<error>"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "check": "None",
+                                        "ifTrue": {
+                                          "kind": "Invalid",
+                                          "child": {
+                                            "kind": "Block",
+                                            "blockKind": "Sequential",
+                                            "body": {
+                                              "kind": "Invalid",
+                                              "child": {
+                                                "kind": "ExpressionStatement",
+                                                "expr": {
+                                                  "kind": "Invalid",
+                                                  "type": "<error>",
+                                                  "child": {
+                                                    "kind": "Assignment",
+                                                    "type": "<error>",
+                                                    "left": {
+                                                      "kind": "Invalid",
+                                                      "type": "<error>",
+                                                      "child": {
+                                                        "kind": "Invalid",
+                                                        "type": "<error>",
+                                                        "child": {
+                                                          "kind": "Invalid",
+                                                          "type": "<error>",
+                                                          "child": {
+                                                            "kind": "NamedValue",
+                                                            "type": "<error>",
+                                                            "symbol": "94082622987936 tmNext"
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "right": {
+                                                      "kind": "Invalid",
+                                                      "type": "<error>"
+                                                    },
+                                                    "isNonBlocking": false
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "ifFalse": {
+                                          "kind": "Invalid",
+                                          "child": {
+                                            "kind": "Conditional",
+                                            "conditions": [
+                                              {
+                                                "expr": {
+                                                  "kind": "Invalid",
+                                                  "type": "<error>",
+                                                  "child": {
+                                                    "kind": "BinaryOp",
+                                                    "type": "<error>",
+                                                    "op": "Equality",
+                                                    "left": {
+                                                      "kind": "NamedValue",
+                                                      "type": "<error>",
+                                                      "symbol": "94082622988736 phyRawWriteAddr"
+                                                    },
+                                                    "right": {
+                                                      "kind": "Invalid",
+                                                      "type": "<error>"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "check": "None",
+                                            "ifTrue": {
+                                              "kind": "Invalid",
+                                              "child": {
+                                                "kind": "Block",
+                                                "blockKind": "Sequential",
+                                                "body": {
+                                                  "kind": "Invalid",
+                                                  "child": {
+                                                    "kind": "ExpressionStatement",
+                                                    "expr": {
+                                                      "kind": "Invalid",
+                                                      "type": "<error>",
+                                                      "child": {
+                                                        "kind": "Assignment",
+                                                        "type": "<error>",
+                                                        "left": {
+                                                          "kind": "Invalid",
+                                                          "type": "<error>",
+                                                          "child": {
+                                                            "kind": "Invalid",
+                                                            "type": "<error>",
+                                                            "child": {
+                                                              "kind": "Invalid",
+                                                              "type": "<error>",
+                                                              "child": {
+                                                                "kind": "NamedValue",
+                                                                "type": "<error>",
+                                                                "symbol": "94082622987936 tmNext"
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "right": {
+                                                          "kind": "Invalid",
+                                                          "type": "<error>"
+                                                        },
+                                                        "isNonBlocking": false
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "Conditional",
+                        "conditions": [
+                          {
+                            "expr": {
+                              "kind": "Invalid",
+                              "type": "<error>",
+                              "child": {
+                                "kind": "BinaryOp",
+                                "type": "<error>",
+                                "op": "Equality",
+                                "left": {
+                                  "kind": "NamedValue",
+                                  "type": "<error>",
+                                  "symbol": "94082622988392 phyRawReadAddr"
+                                },
+                                "right": {
+                                  "kind": "Invalid",
+                                  "type": "<error>"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "check": "None",
+                        "ifTrue": {
+                          "kind": "Invalid",
+                          "child": {
+                            "kind": "Block",
+                            "blockKind": "Sequential",
+                            "body": {
+                              "kind": "Invalid",
+                              "child": {
+                                "kind": "ExpressionStatement",
+                                "expr": {
+                                  "kind": "Invalid",
+                                  "type": "<error>",
+                                  "child": {
+                                    "kind": "Assignment",
+                                    "type": "<error>",
+                                    "left": {
+                                      "kind": "Invalid",
+                                      "type": "<error>"
+                                    },
+                                    "right": {
+                                      "kind": "Invalid",
+                                      "type": "<error>",
+                                      "child": {
+                                        "kind": "Invalid",
+                                        "type": "<error>",
+                                        "child": {
+                                          "kind": "Invalid",
+                                          "type": "<error>",
+                                          "child": {
+                                            "kind": "NamedValue",
+                                            "type": "<error>",
+                                            "symbol": "94082622985184 tmReg"
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "isNonBlocking": false
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "ifFalse": {
+                          "kind": "Invalid",
+                          "child": {
+                            "kind": "Conditional",
+                            "conditions": [
+                              {
+                                "expr": {
+                                  "kind": "Invalid",
+                                  "type": "<error>",
+                                  "child": {
+                                    "kind": "BinaryOp",
+                                    "type": "<error>",
+                                    "op": "Equality",
+                                    "left": {
+                                      "kind": "NamedValue",
+                                      "type": "<error>",
+                                      "symbol": "94082622988392 phyRawReadAddr"
+                                    },
+                                    "right": {
+                                      "kind": "Invalid",
+                                      "type": "<error>"
+                                    }
+                                  }
+                                }
+                              }
+                            ],
+                            "check": "None",
+                            "ifTrue": {
+                              "kind": "Invalid",
+                              "child": {
+                                "kind": "Block",
+                                "blockKind": "Sequential",
+                                "body": {
+                                  "kind": "Invalid",
+                                  "child": {
+                                    "kind": "ExpressionStatement",
+                                    "expr": {
+                                      "kind": "Invalid",
+                                      "type": "<error>",
+                                      "child": {
+                                        "kind": "Assignment",
+                                        "type": "<error>",
+                                        "left": {
+                                          "kind": "Invalid",
+                                          "type": "<error>"
+                                        },
+                                        "right": {
+                                          "kind": "Invalid",
+                                          "type": "<error>",
+                                          "child": {
+                                            "kind": "Invalid",
+                                            "type": "<error>",
+                                            "child": {
+                                              "kind": "Invalid",
+                                              "type": "<error>",
+                                              "child": {
+                                                "kind": "NamedValue",
+                                                "type": "<error>",
+                                                "symbol": "94082622985184 tmReg"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "isNonBlocking": false
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "ifFalse": {
+                              "kind": "Invalid",
+                              "child": {
+                                "kind": "Conditional",
+                                "conditions": [
+                                  {
+                                    "expr": {
+                                      "kind": "Invalid",
+                                      "type": "<error>",
+                                      "child": {
+                                        "kind": "BinaryOp",
+                                        "type": "<error>",
+                                        "op": "Equality",
+                                        "left": {
+                                          "kind": "NamedValue",
+                                          "type": "<error>",
+                                          "symbol": "94082622988392 phyRawReadAddr"
+                                        },
+                                        "right": {
+                                          "kind": "Invalid",
+                                          "type": "<error>"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ],
+                                "check": "None",
+                                "ifTrue": {
+                                  "kind": "Invalid",
+                                  "child": {
+                                    "kind": "Block",
+                                    "blockKind": "Sequential",
+                                    "body": {
+                                      "kind": "Invalid",
+                                      "child": {
+                                        "kind": "ExpressionStatement",
+                                        "expr": {
+                                          "kind": "Invalid",
+                                          "type": "<error>",
+                                          "child": {
+                                            "kind": "Assignment",
+                                            "type": "<error>",
+                                            "left": {
+                                              "kind": "Invalid",
+                                              "type": "<error>"
+                                            },
+                                            "right": {
+                                              "kind": "Invalid",
+                                              "type": "<error>",
+                                              "child": {
+                                                "kind": "Invalid",
+                                                "type": "<error>",
+                                                "child": {
+                                                  "kind": "Invalid",
+                                                  "type": "<error>",
+                                                  "child": {
+                                                    "kind": "NamedValue",
+                                                    "type": "<error>",
+                                                    "symbol": "94082622985184 tmReg"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "isNonBlocking": false
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "ifFalse": {
+                                  "kind": "Invalid",
+                                  "child": {
+                                    "kind": "Block",
+                                    "blockKind": "Sequential",
+                                    "body": {
+                                      "kind": "Invalid",
+                                      "child": {
+                                        "kind": "ExpressionStatement",
+                                        "expr": {
+                                          "kind": "Invalid",
+                                          "type": "<error>",
+                                          "child": {
+                                            "kind": "Assignment",
+                                            "type": "<error>",
+                                            "left": {
+                                              "kind": "Invalid",
+                                              "type": "<error>"
+                                            },
+                                            "right": {
+                                              "kind": "Invalid",
+                                              "type": "<error>",
+                                              "child": {
+                                                "kind": "Invalid",
+                                                "type": "<error>",
+                                                "child": {
+                                                  "kind": "Invalid",
+                                                  "type": "<error>",
+                                                  "child": {
+                                                    "kind": "NamedValue",
+                                                    "type": "<error>",
+                                                    "symbol": "94082622985184 tmReg"
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "isNonBlocking": false
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "name": "",
+            "kind": "ProceduralBlock",
+            "addr": 94082622989192,
+            "procedureKind": "AlwaysComb",
+            "body": {
+              "kind": "Invalid",
+              "child": {
+                "kind": "Block",
+                "blockKind": "Sequential",
+                "body": {
+                  "kind": "List",
+                  "list": [
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "ExpressionStatement",
+                        "expr": {
+                          "kind": "Invalid",
+                          "type": "<error>",
+                          "child": {
+                            "kind": "Assignment",
+                            "type": "<error>",
+                            "left": {
+                              "kind": "Invalid",
+                              "type": "<error>"
+                            },
+                            "right": {
+                              "kind": "Invalid",
+                              "type": "<error>"
+                            },
+                            "isNonBlocking": false
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "ExpressionStatement",
+                        "expr": {
+                          "kind": "Invalid",
+                          "type": "<error>",
+                          "child": {
+                            "kind": "Assignment",
+                            "type": "<error>",
+                            "left": {
+                              "kind": "Invalid",
+                              "type": "<error>"
+                            },
+                            "right": {
+                              "kind": "Invalid",
+                              "type": "<error>"
+                            },
+                            "isNonBlocking": false
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "kind": "Invalid",
+                      "child": {
+                        "kind": "Conditional",
+                        "conditions": [
+                          {
+                            "expr": {
+                              "kind": "Invalid",
+                              "type": "<error>",
+                              "child": {
+                                "kind": "BinaryOp",
+                                "type": "<error>",
+                                "op": "LogicalAnd",
+                                "left": {
+                                  "kind": "Invalid",
+                                  "type": "<error>"
+                                },
+                                "right": {
+                                  "kind": "Invalid",
+                                  "type": "<error>",
+                                  "child": {
+                                    "kind": "BinaryOp",
+                                    "type": "<error>",
+                                    "op": "Equality",
+                                    "left": {
+                                      "kind": "NamedValue",
+                                      "type": "<error>",
+                                      "symbol": "94082622988736 phyRawWriteAddr"
+                                    },
+                                    "right": {
+                                      "kind": "Invalid",
+                                      "type": "<error>"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "check": "None",
+                        "ifTrue": {
+                          "kind": "Invalid",
+                          "child": {
+                            "kind": "Block",
+                            "blockKind": "Sequential",
+                            "body": {
+                              "kind": "Invalid",
+                              "child": {
+                                "kind": "ExpressionStatement",
+                                "expr": {
+                                  "kind": "Invalid",
+                                  "type": "<error>",
+                                  "child": {
+                                    "kind": "Assignment",
+                                    "type": "<error>",
+                                    "left": {
+                                      "kind": "Invalid",
+                                      "type": "<error>"
+                                    },
+                                    "right": {
+                                      "kind": "Invalid",
+                                      "type": "<error>"
+                                    },
+                                    "isNonBlocking": false
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "definition": "IO_Unit"
+      },
+      "connections": [
+      ]
+    }
+  ]
+}

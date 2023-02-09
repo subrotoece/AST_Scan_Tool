@@ -1,0 +1,242 @@
+{
+  "name": "$root",
+  "kind": "Root",
+  "addr": 94081662988144,
+  "members": [
+    {
+      "name": "",
+      "kind": "CompilationUnit",
+      "addr": 94081663103040
+    },
+    {
+      "name": "mux",
+      "kind": "Instance",
+      "addr": 94081663106136,
+      "body": {
+        "name": "mux",
+        "kind": "InstanceBody",
+        "addr": 94081663103312,
+        "members": [
+          {
+            "name": "a",
+            "kind": "Port",
+            "addr": 94081663107728,
+            "type": "logic",
+            "direction": "In",
+            "internalSymbol": "94081663106624 a"
+          },
+          {
+            "name": "b",
+            "kind": "Port",
+            "addr": 94081663107856,
+            "type": "logic",
+            "direction": "In",
+            "internalSymbol": "94081663106992 b"
+          },
+          {
+            "name": "sel",
+            "kind": "Port",
+            "addr": 94081663107984,
+            "type": "logic",
+            "direction": "In",
+            "internalSymbol": "94081663107360 sel"
+          },
+          {
+            "name": "f",
+            "kind": "Port",
+            "addr": 94081663108112,
+            "type": "logic",
+            "direction": "Out",
+            "internalSymbol": "94081663106256 f"
+          },
+          {
+            "name": "f",
+            "kind": "Net",
+            "addr": 94081663106256,
+            "type": "logic",
+            "netType": {
+              "name": "wire",
+              "kind": "NetType",
+              "addr": 94081662798320,
+              "type": "logic"
+            }
+          },
+          {
+            "name": "sel",
+            "kind": "Net",
+            "addr": 94081663107360,
+            "type": "logic",
+            "netType": {
+              "name": "wire",
+              "kind": "NetType",
+              "addr": 94081662798320,
+              "type": "logic"
+            }
+          },
+          {
+            "name": "b",
+            "kind": "Net",
+            "addr": 94081663106992,
+            "type": "logic",
+            "netType": {
+              "name": "wire",
+              "kind": "NetType",
+              "addr": 94081662798320,
+              "type": "logic"
+            }
+          },
+          {
+            "name": "a",
+            "kind": "Net",
+            "addr": 94081663106624,
+            "type": "logic",
+            "netType": {
+              "name": "wire",
+              "kind": "NetType",
+              "addr": 94081662798320,
+              "type": "logic"
+            }
+          },
+          {
+            "name": "c",
+            "kind": "Variable",
+            "addr": 94081663103704,
+            "type": "logic",
+            "lifetime": "Static"
+          },
+          {
+            "name": "d",
+            "kind": "Variable",
+            "addr": 94081663104048,
+            "type": "logic",
+            "lifetime": "Static"
+          },
+          {
+            "name": "not_sel",
+            "kind": "Variable",
+            "addr": 94081663105504,
+            "type": "logic",
+            "lifetime": "Static"
+          },
+          {
+            "name": "gate0",
+            "kind": "PrimitiveInstance",
+            "addr": 94081663108272,
+            "primitiveType": "94081663102192 not",
+            "ports": [
+              {
+                "kind": "NamedValue",
+                "type": "logic",
+                "symbol": "94081663105504 not_sel"
+              },
+              {
+                "kind": "NamedValue",
+                "type": "logic",
+                "symbol": "94081663107360 sel"
+              }
+            ]
+          },
+          {
+            "name": "gate1",
+            "kind": "PrimitiveInstance",
+            "addr": 94081663108400,
+            "primitiveType": "94081663093744 and",
+            "ports": [
+              {
+                "kind": "Assignment",
+                "type": "logic",
+                "left": {
+                  "kind": "NamedValue",
+                  "type": "logic",
+                  "symbol": "94081663103704 c"
+                },
+                "right": {
+                  "kind": "EmptyArgument",
+                  "type": "logic"
+                },
+                "isNonBlocking": false
+              },
+              {
+                "kind": "NamedValue",
+                "type": "logic",
+                "symbol": "94081663106624 a"
+              },
+              {
+                "kind": "NamedValue",
+                "type": "logic",
+                "symbol": "94081663105504 not_sel"
+              }
+            ]
+          },
+          {
+            "name": "gate2",
+            "kind": "PrimitiveInstance",
+            "addr": 94081663108528,
+            "primitiveType": "94081663093744 and",
+            "ports": [
+              {
+                "kind": "Assignment",
+                "type": "logic",
+                "left": {
+                  "kind": "NamedValue",
+                  "type": "logic",
+                  "symbol": "94081663104048 d"
+                },
+                "right": {
+                  "kind": "EmptyArgument",
+                  "type": "logic"
+                },
+                "isNonBlocking": false
+              },
+              {
+                "kind": "NamedValue",
+                "type": "logic",
+                "symbol": "94081663106992 b"
+              },
+              {
+                "kind": "NamedValue",
+                "type": "logic",
+                "symbol": "94081663107360 sel"
+              }
+            ]
+          },
+          {
+            "name": "gate3",
+            "kind": "PrimitiveInstance",
+            "addr": 94081663108656,
+            "primitiveType": "94081663097072 or",
+            "ports": [
+              {
+                "kind": "Assignment",
+                "type": "logic",
+                "left": {
+                  "kind": "NamedValue",
+                  "type": "logic",
+                  "symbol": "94081663106256 f"
+                },
+                "right": {
+                  "kind": "EmptyArgument",
+                  "type": "logic"
+                },
+                "isNonBlocking": false
+              },
+              {
+                "kind": "NamedValue",
+                "type": "logic",
+                "symbol": "94081663103704 c"
+              },
+              {
+                "kind": "NamedValue",
+                "type": "logic",
+                "symbol": "94081663104048 d"
+              }
+            ]
+          }
+        ],
+        "definition": "mux"
+      },
+      "connections": [
+      ]
+    }
+  ]
+}
